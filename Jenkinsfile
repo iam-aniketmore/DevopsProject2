@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Pull code') {
             steps {
-                git branch: 'main', url: 'https://github.com/iam-aniketmore/registration-application.git'
+                git branch: 'main', url: 'https://github.com/iam-aniketmore/DevopsProject2.git'
             }
         }
 
